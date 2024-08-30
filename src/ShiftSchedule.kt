@@ -1,0 +1,1 @@
+data class ShiftSchedule(val employee: Employee, val day: Int, val shift: String)
