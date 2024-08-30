@@ -1,4 +1,4 @@
-class EmployeeShiftSchedule(private val employee: Employee) {
+class EmployeeShiftSchedule {
     private val shiftSchedule = mutableMapOf<Int, String>()
 
     fun generateRandomShift(numDays: Int) {
